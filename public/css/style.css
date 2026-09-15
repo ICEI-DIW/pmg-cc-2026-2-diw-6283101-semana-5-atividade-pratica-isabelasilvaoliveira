@@ -21,7 +21,7 @@ button {
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    background: white;
+    background: #ef4d32;
     border-bottom: 1px solid #ddd;
     position: relative;
 }
@@ -32,7 +32,7 @@ button {
 }
 
 .logo h1 span {
-    color: #ef4d32;
+    color: #ebada2;
 }
 .pesquisa {
     display: flex;
@@ -42,14 +42,14 @@ button {
 .pesquisa input {
     width: 300px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ef4d32;
     border-radius: 5px;
 }
 
 .pesquisa button,
 .acoes button {
     padding: 10px 16px;
-    border: 1px solid #0f0e0e;
+    border: 1px solid #ef4d32;
     background: white;
     cursor: pointer;
 }
@@ -94,6 +94,7 @@ button {
 .hero-texto h2 {
     font-size: 38px;
     margin-bottom: 20px;
+    color: #ef4d32;
 }
 
 .hero-texto p {
@@ -126,6 +127,7 @@ button {
 .filtros {
     padding: 40px 60px;
     background: #f8f8f8;
+    color: #ef4d32;
     
 }
 
@@ -150,7 +152,7 @@ button {
 .grupo-filtros button {
     padding: 8px 14px;
     margin: 4px;
-    border: 1px solid #888;
+    border: 1px solid #ef4d32;
     background: white;
     border-radius: 20px;
     cursor: pointer;
@@ -172,6 +174,7 @@ button {
 .receitas-rapidas {
     padding: 40px 60px;
     background: white;
+    color: #ef4d32;
 }
 
 .receitas-populares h2,
@@ -218,6 +221,7 @@ button {
     padding: 40px 60px;
     text-align: center;
     background: #f8f8f8;
+    color: #ef4d32;
 }
 
 .como-funciona h2 {
@@ -240,10 +244,11 @@ button {
     height: 50px;
     margin: 0 auto 15px;
     border-radius: 50%;
-    background: #d17a5f;
+    background: #ef4d32;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #ddd;
 }
 
 .passos article h4 {
@@ -300,6 +305,7 @@ button {
 .rodape h3,
 .rodape h4 {
     margin-bottom: 10px;
+    color: #ef4d32;
 }
 
 .rodape p {
