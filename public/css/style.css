@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #000000;
+}
+
+button {
+    border-radius: 10px;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.logo h1 {
+    font-size: 20px;
+    color: #222;
+}
+
+.logo h1 span {
+    color: #ef4d32;
+}
+.pesquisa {
+    display: flex;
+    gap: 10px;
+}
+
+.pesquisa input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pesquisa button,
+.acoes button {
+    padding: 10px 16px;
+    border: 1px solid #0f0e0e;
+    background: white;
+    cursor: pointer;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: #f8f8f8;
+    padding: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px 60px;
+    background: white;
+}
+
+.hero-texto {
+     width: 45%;
+    padding-left: 50px;
+}
+
+.hero-texto h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero-texto button {
+    padding: 12px 20px;
+    background: #d13606;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-imagem {
+    width: 50%;
+}
+
+.hero-imagem img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+/* FILTROS */
+
+.filtros {
+    padding: 40px 60px;
+    background: #f8f8f8;
+    
+}
+
+.filtros h2 {
+    margin-bottom: 30px;
+}
+
+.grupo-filtros {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.grupo-filtros > div {
+    flex: 1;
+}
+
+.grupo-filtros h3 {
+    margin-bottom: 15px;
+}
+
+.grupo-filtros button {
+    padding: 8px 14px;
+    margin: 4px;
+    border: 1px solid #888;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botao-buscar {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background: #d13606;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* RECEITAS */
+
+.receitas-populares,
+.receitas-rapidas {
+    padding: 40px 60px;
+    background: white;
+}
+
+.receitas-populares h2,
+.receitas-rapidas h2 {
+    margin-bottom: 25px;
+}
+
+.lista-receitas {
+    display: flex;
+    gap: 20px;
+}
+
+.receita {
+    flex: 1;
+    background: white;
+    border: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.receita img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.receita h3 {
+    padding: 15px 15px 5px;
+}
+
+.receita p {
+    padding: 0 15px;
+    color: #d13606;
+}
+
+/* COMO FUNCIONA */
+
+.como-funciona {
+    padding: 40px 60px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.como-funciona h2 {
+    margin-bottom: 30px;
+}
+
+.passos {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.passos article {
+    flex: 1;
+    padding: 20px;
+}
+
+.passos article h3 {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #d17a5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passos article h4 {
+    margin-bottom: 10px;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    padding: 40px 60px;
+    background: #d13606;
+    color: white;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 12px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+}
+
+.newsletter button {
+    padding: 12px 20px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 60px;
+    background: #e8e8e8;
+}
+
+.rodape > div {
+    flex: 1;
+}
+
+.rodape h3,
+.rodape h4 {
+    margin-bottom: 10px;
+}
+
+.rodape p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 800px) {
+
+    .cabecalho,
+    .hero,
+    .grupo-filtros,
+    .lista-receitas,
+    .passos,
+    .newsletter form,
+    .rodape {
+        flex-direction: column;
+    }
+
+    .hero-texto,
+    .hero-imagem {
+        width: 100%;
+    }
+
+    .pesquisa input {
+        width: 100%;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor em Minutos</title>
+    <meta name="description" content="Sabor em Minutos - receitas rápidas e práticas para o dia a dia.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">
+             <h1>Sabor <span>em Minutos</span></h1>
+        </div>
+
+        <form class="pesquisa">
+            <input type="text" placeholder="Buscar receitas, ingredientes...">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div class="acoes">
+            <button>Entrar</button>
+            <button>Cadastrar</button>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="#">Início</a>
+        <a href="#">Receitas</a>
+        <a href="#">Por Tempo</a>
+        <a href="#">Por Categoria</a>
+        <a href="#">Sobre</a>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-texto">
+                <h2>Encontre a receita perfeita para o seu tempo</h2>
+
+                 <p>
+        Não sabe o que preparar hoje? No Sabor em Minutos você encontra
+        receitas simples, saborosas e práticas para qualquer momento do dia.
+                 </p>
+
+                 <p>
+        Escolha de acordo com o tempo que você tem disponível e encontre
+        desde refeições completas até lanches e sobremesas rápidas.
+                 </p>
+
+                <button>Começar Agora</button>
+            </div>
+
+            <div class="hero-imagem">
+                <img src="https://picsum.photos/600/350" alt="Imagem de receita">
+            </div>
+        </section>
+
+        <section class="filtros">
+            <h2>O que você quer cozinhar hoje?</h2>
+
+            <div class="grupo-filtros">
+                <div>
+                    <h3>Tempo de preparo</h3>
+                    <button>10 min</button>
+                    <button>20 min</button>
+                    <button>30 min</button>
+                    <button>1 hora</button>
+                    <button>+1 hora</button>
+                </div>
+
+                <div>
+                    <h3>Dificuldade</h3>
+                    <button>Fácil</button>
+                    <button>Médio</button>
+                    <button>Difícil</button>
+                </div>
+
+                <div>
+                    <h3>Categorias populares</h3>
+                    <button>Carnes</button>
+                    <button>Massas</button>
+                    <button>Sobremesas</button>
+                    <button>Saladas</button>
+                    <button>Sopas</button>
+                    <button>Lanches</button>
+                </div>
+            </div>
+
+            <button class="botao-buscar">Buscar Receitas</button>
+        </section>
+
+        <section class="receitas-populares">
+            <h2>Receitas Populares</h2>
+
+            <div class="lista-receitas">
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=1" alt="Receita">
+                    <h3>Escondidinho de Carne Seca</h3>
+                    <p>45 min | Médio</p>
+                </article>
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=2" alt="Receita">
+                    <h3>Macarrão de Panela</h3>
+                    <p>30 min | Fácil</p>
+                </article>
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=3" alt="Receita">
+                    <h3>Brigadeiro de Colher</h3>
+                    <p>10 min | Fácil</p>
+                </article>
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=4" alt="Receita">
+                    <h3>Pão de Queijo Caseiro</h3>
+                    <p>25 min | Fácil</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="como-funciona">
+            <h2>Como funciona o Sabor em Minutos</h2>
+
+            <div class="passos">
+
+                <article>
+                    <h3>1</h3>
+                    <h4>Escolha o tempo</h4>
+                    <p>Selecione quanto tempo você tem disponível.</p>
+                </article>
+
+                <article>
+                    <h3>2</h3>
+                    <h4>Filtre por dificuldade</h4>
+                    <p>Encontre receitas do seu nível de habilidade.</p>
+                </article>
+
+                <article>
+                    <h3>3</h3>
+                    <h4>Cozinhe e avalie</h4>
+                    <p>Siga o passo a passo e compartilhe sua experiência.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="receitas-rapidas">
+            <h2>Receitas de até 10 minutos</h2>
+
+            <div class="lista-receitas">
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=5" alt="Receita">
+                    <h3>Mousse de Limão</h3>
+                    <p>8 min</p>
+                </article>
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=6" alt="Receita">
+                    <h3>Omelete de Queijo</h3>
+                    <p>10 min</p>
+                </article>
+
+                <article class="receita">
+                    <img src="https://picsum.photos/300/200?random=7" alt="Receita">
+                    <h3>Tapioca de Banana</h3>
+                    <p>7 min</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Receba receitas novas toda semana</h2>
+
+            <form>
+                <input type="text" placeholder="Seu nome">
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div>
+            <h3>Sabor em Minutos</h3>
+            <p>Receitas rápidas, simples e deliciosas para o seu dia a dia.</p>
+        </div>
+
+        <div>
+            <h4>Receitas</h4>
+            <p>Populares</p>
+            <p>Por Tempo</p>
+            <p>Por Categoria</p>
+        </div>
+
+        <div>
+            <h4>Institucional</h4>
+            <p>Sobre Nós</p>
+            <p>Contato</p>
+            <p>Termos de Uso</p>
+        </div>
+
+        <div>
+            <h4>Redes Sociais</h4>
+            <p>Instagram | Facebook | YouTube</p>
+        </div>
+    </footer>
+
+</body>
+</html>
